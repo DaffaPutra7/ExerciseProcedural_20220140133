@@ -25,10 +25,16 @@ int main() {
 	cin >> nilM;
 	cout << "Masukkan nilai Bahasa Inggris = ";
 	cin >> nilB;
+	cout << "Nama : Asroni, Status : Diterima";
+	cin >> nilM, nilB;
+	cout << "Nama : Lia, Status : Diterima";
+	cin >> nilM, nilB;
 	cout << "Status Kelulusan = " << status(rerata(nilM, nilB));
 	cout << "\nStatus Kelulusan ke 2 = " << status2(rerata(nilM, nilB), nilM);
+	cout << "\nNama : Asroni, Status : Diterima" << status2(rerata(nilM, nilB), nilM);
+	cout << "\nNama : Lia, Status : Diterima" << status2(rerata(nilM, nilB), nilM);
+	cout << "\nNama : Joko, Status : Ditolak" << status2(rerata(nilM, nilB), nilM);
 	return 0;
 }
-
 
 
