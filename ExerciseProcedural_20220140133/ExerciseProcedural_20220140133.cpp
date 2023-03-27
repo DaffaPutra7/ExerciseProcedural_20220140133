@@ -19,6 +19,16 @@ string status2(double rata, double nil) {
 		return "Gagal";
 }
 
+int main() {
+	double nilM, nilB;
+	cout << "Masukkan nilai Matematika = ";
+	cin >> nilM;
+	cout << "Masukkan nilai Bahasa Inggris = ";
+	cin >> nilB;
+	cout << "Status Kelulusan = " << status(rerata(nilM, nilB));
+	cout << "\nStatus Kelulusan ke 2 = " << status2(rerata(nilM, nilB), nilM);
+	return 0;
+}
 
 
 
